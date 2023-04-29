@@ -1,0 +1,9 @@
+html {
+    background-color: bisque;
+}
+h1 {
+    color: black;
+    background-color: bisque;
+    border: 1px solid black;
+    width: fit-content;
+}
