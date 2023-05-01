@@ -1,9 +1,15 @@
 html {
     background-color: bisque;
 }
+body {
+    width: 500px;
+    margin: auto;
+}
 h1 {
+    margin: auto;
     color: black;
     background-color: bisque;
     border: 1px solid black;
     width: fit-content;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
