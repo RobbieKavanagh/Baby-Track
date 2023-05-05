@@ -13,11 +13,11 @@ h1 {
     width: fit-content;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.topnav {
+nav {
     background-color: #333;
     overflow: hidden;
   }
-  .topnav a {
+  nav a {
     float: left;
     color: #f2f2f2;
     text-align: center;
