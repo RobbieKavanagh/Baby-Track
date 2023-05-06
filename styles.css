@@ -1,5 +1,5 @@
 html {
-    background-color: bisque;
+    background-color:F0A7A0;
 }
 body {
     width: 500px;
@@ -8,13 +8,12 @@ body {
 h1 {
     margin: auto;
     color: black;
-    background-color: bisque;
-    border: 1px solid black;
+    background-color: 947BD3;
     width: fit-content;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 nav {
-    background-color: #333;
+    background-color: 947BD3;
     overflow: hidden;
   }
   nav a {
