@@ -26,3 +26,13 @@ nav {
     text-decoration: none;
     font-size: 25px;
   }
+.button1 {
+    margin: 0 auto;
+    background-color: FFE8E1 ;
+    padding: 15px 25px;
+    font-size: 25px;
+    width: 200px;
+}
+div.home1 {
+   margin: Auto;
+}
