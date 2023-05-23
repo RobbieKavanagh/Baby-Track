@@ -38,6 +38,7 @@ nav {
     width: 30%;
     display: flex;
     justify-content: center;
+    border-radius: 15px;
 }
 #babyinput {
     display: flex;
@@ -48,6 +49,7 @@ nav {
     text-align: center;
     margin-bottom: 50px;
     margin-top: 50px;
+    border-radius: 15px;
 }
 #box1 {
     margin: 20px;
@@ -68,4 +70,16 @@ nav {
     justify-content: center;
     background-color: FFE8E1;
     border-radius: 15px;
+}
+.welcome {
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    background-color: FFE8E1;
+    width:400px;
+    font-family: cursive 'Courier New', Courier, monospace;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 15px;
+    padding: 15px 25px;
 }
