@@ -51,7 +51,12 @@ nav {
     margin-top: 50px;
     border-radius: 15px;
 }
-#box1 {
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.item1 {
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
@@ -60,18 +65,20 @@ nav {
     justify-content: center;
     background-color: FFE8E1;
     border-radius: 15px;
+    text-align: center;
 }
-#box2 {
+.item2{
     margin: 20px;
     margin-left: auto;
     margin-right: auto;
     width: 450px;
-    height: 200px;
+    height: 100px;
     justify-content: center;
     background-color: FFE8E1;
     border-radius: 15px;
+    text-align: center;
 }
-.welcome {
+#welcome {
     margin-left: auto;
     margin-right: auto;
     color: black;
