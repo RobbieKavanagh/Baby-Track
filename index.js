@@ -1,3 +1,2 @@
-var app = {
-    track: document.getElementById('track')
-}
+let item1 = 0;
+console.log(item1)
