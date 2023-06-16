@@ -31,27 +31,6 @@ nav a {
     text-decoration: none;
     font-size: 25px;
   }
-#button1 {
-    margin: 0 auto;
-    background-color: FFE8E1 ;
-    padding: 15px 25px;
-    font-size: 25px;
-    width: 30%;
-    display: flex;
-    justify-content: center;
-    border-radius: 15px;
-}
-#babyinput {
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    width: 60%;
-    border: 2px solid black;
-    text-align: center;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    border-radius: 15px;
-}
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -69,19 +48,6 @@ nav a {
     background-color: FFE8E1;
     border-radius: 15px;
     text-align: center;
-}
-
-#welcome {
-    margin-left: auto;
-    margin-right: auto;
-    color: black;
-    background-color: FFE8E1;
-    width:400px;
-    font-family: cursive 'Courier New', Courier, monospace;
-    border: 2px solid black;
-    text-align: center;
-    border-radius: 15px;
-    padding: 15px 25px;
 }
 #button2 {
     margin: 0 auto;
