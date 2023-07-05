@@ -11,7 +11,7 @@ function createNote() {
  noteTitle.className = "noteTitle";
 
  body.id = "noteBody";
- body.innerHTML = "testing";
+ body.innerHTML = "Testing";
  newNote.appendChild(body);
  newNote.className = "note";
  document.getElementById("note-container").append(newNote);
