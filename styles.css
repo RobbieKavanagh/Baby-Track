@@ -48,6 +48,13 @@ nav a {
     background-color: FFE8E1;
     border-radius: 15px;
     text-align: center;
+    position: relative;
+    }
+#noteTitle {
+    font-weight: bold;
+}
+#noteBody {
+    font-style: italic;
 }
 #button2 {
     margin: 0 auto;
