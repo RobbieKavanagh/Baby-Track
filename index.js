@@ -5,7 +5,12 @@ function createNote() {
  const noteDiv = document.createElement("div");
  noteDiv.className = "note";
 
- const titleDiv = document.getElementById("div");
+ const titleDiv = document.createElement("div");
  titleDiv.className = "noteTitle";
- 
+ titleDiv.innerHTML = titleInput;
+
+ const bodyDiv = document.createElement("div");
+ bodyDiv.className = "noteBody";
+ bodyDiv.innerHTML = bodyInput;
+
 }
