@@ -13,4 +13,17 @@ function createNote() {
  bodyDiv.className = "noteBody";
  bodyDiv.innerHTML = bodyInput;
 
+ noteDiv.appendChild(titleDiv);
+ noteDiv.appendChild(bodyDiv);
+
+ document.getElementById("note-container").append(noteDiv);
 }
+
+function getNotes() {
+ allNotes.array.array.forEach((note) => {
+    const noteDiv = document.createElement("div");
+    noteDiv.className = "note";
+
+    
+ });
+} 
