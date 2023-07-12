@@ -13,8 +13,20 @@ function createNote() {
     bodyDiv.className = "noteBody";
     bodyDiv.innerHTML = bodyInput;
 
+    const dateDiv = document.createElement("div");
+    dateDiv.className = "noteDate";
+
+    const date = new Date();
+    let day = date.getDate();
+    let month = date.getMonth()+1;
+    let year = date.getFullYear();
+    let currentDate = `${day} ${month} ${year}`;
+
+    dateDiv.innerHTML = currentDate;
+
     noteDiv.appendChild(titleDiv);
     noteDiv.appendChild(bodyDiv);
+    noteDiv.appendChild(dateDiv);
 
     document.getElementById("note-container").append(noteDiv);
 }
@@ -32,19 +44,9 @@ function getNotes() {
     bodyDiv.className = "noteBody";
     bodyDiv.innerHTML = note.noteBody;
 
-    const dateDiv = document.createElement("div");
-    dateDiv.className = "noteDate";
-    dateDiv.innerHTML = note.noteBody;
 
     document.getElementById("note-container").append(noteDiv);
     
-    const date = new Date;
-     let day = data.getDate();
-     let month = data.getMonth();
-     let year = data.getFullYear();
-     let currentDate = '${day} ${month} ${year}';
-
-     dateDiv.innerHTML = currentDate;
 
  });
 } 

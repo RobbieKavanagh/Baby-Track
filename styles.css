@@ -50,10 +50,10 @@ nav a {
     text-align: center;
     position: relative;
     }
-#noteTitle {
+.noteTitle {
     font-weight: bold;
 }
-#noteBody {
+.noteBody {
     font-style: italic;
 }
 #button2 {
