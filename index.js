@@ -37,6 +37,14 @@ function getNotes() {
     dateDiv.innerHTML = note.noteBody;
 
     document.getElementById("note-container").append(noteDiv);
+    
+    const date = new Date;
+     let day = data.getDate();
+     let month = data.getMonth();
+     let year = data.getFullYear();
+     let currentDate = '${day} ${month} ${year}';
+
+     dateDiv.innerHTML = currentDate;
 
  });
 } 
