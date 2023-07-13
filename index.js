@@ -28,11 +28,15 @@ function createNote() {
     noteDiv.appendChild(bodyDiv);
     noteDiv.appendChild(dateDiv);
 
+    const savedNote = {title: titleInput, body: bodyInput, date: currentDate};
+    allNotes.push(savedNote)
+    let allNotesString = JSON.stringify(allNotes);
+    
     document.getElementById("note-container").append(noteDiv);
 }
 
 function getNotes() {
- allNotes.array.array.forEach((note) => {
+ allNotes.forEach((note) => {
     const noteDiv = document.createElement("div");
     noteDiv.className = "note";
 
@@ -50,3 +54,7 @@ function getNotes() {
 
  });
 } 
+
+document.addEventListener("DOMContentLoaded", function() {
+
+})
